@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los Angeles Jewelry Co.</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 0.5em 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 1em;
+            text-decoration: none;
+        }
+        section {
+            padding: 2em;
+            margin: 2em 0;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1em;
+        }
+        .gallery img {
+            width: calc(33% - 1em);
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Los Angeles Jewelry Co.</h1>
+        <p>Crafting Excellence in Jewelry Design</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#collections">Collections</a>
+        <a href="#custom">Custom Services</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+    <section id="home">
+        <h2>Welcome to Los Angeles Jewelry Co.</h2>
+        <p>We are a premier jewelry design company based in the heart of Los Angeles, dedicated to creating exquisite pieces that blend timeless elegance with modern sophistication.</p>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Los Angeles Jewelry Co. was founded with a passion for creating beautiful, high-quality jewelry. Our team of skilled artisans and designers work tirelessly to bring your visions to life, ensuring each piece is a true work of art.</p>
+    </section>
+    <section id="collections">
+        <h2>Our Collections</h2>
+        <div class="gallery">
+            <img src="https://via.placeholder.com/300" alt="Jewelry 1">
+            <img src="https://via.placeholder.com/300" alt="Jewelry 2">
+            <img src="https://via.placeholder.com/300" alt="Jewelry 3">
+            <img src="https://via.placeholder.com/300" alt="Jewelry 4">
+            <img src="https://via.placeholder.com/300" alt="Jewelry 5">
+            <img src="https://via.placeholder.com/300" alt="Jewelry 6">
+        </div>
+    </section>
+    <section id="custom">
+        <h2>Custom Services</h2>
+        <p>At Los Angeles Jewelry Co., we offer bespoke jewelry design services. Whether you're looking to create a custom engagement ring or a unique piece for a special occasion, our designers will work with you to create a masterpiece that reflects your personal style and vision.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or would like to schedule a consultation, please don't hesitate to reach out to us. You can contact us via phone, email, or visit our store in Los Angeles.</p>
+        <p>Email: info@lajewelryco.com</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>Address: 123 Jewelry Lane, Los Angeles, CA 90001</p>
+    </section>
+    <footer>
+        &copy; 2024 Los Angeles Jewelry Co. All Rights Reserved.
+    </footer>
+</body>
+</html>
